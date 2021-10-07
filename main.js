@@ -26,3 +26,13 @@ function grade(num){
     }
 }
 grade(90)
+
+function leapYear(year){
+    if((0 == year % 4) && (0 != year % 100) || (0 == year % 400)){
+        console.log("true");
+    }
+    else{
+        console.log("false");
+    }
+}
+leapYear(2000)
