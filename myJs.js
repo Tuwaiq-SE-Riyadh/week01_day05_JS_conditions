@@ -26,3 +26,15 @@ function getGrade(grade)
         return "F"
     }
 }
+
+// Bounes ( Leap year )
+function LeapYear(year)
+{
+    if(year%400 === 0 ||(year % 4 === 0 && year %100 !== 0))
+    {
+        console.log("true")
+    }
+    else{
+        console.log("false")
+    }
+}
