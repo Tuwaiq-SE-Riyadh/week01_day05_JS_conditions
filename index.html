@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script> 
+   
+    //  even & odd numbers
+     let num;
+    function ceek( num ) {
+     if (num%2==0) {
+         console.log("the num even")
+      } 
+        else   {
+         console.log("the num odd") 
+       }
+       
+     }
+
+    //  function that takes a score as an input and print the Grade
+    let gread;
+    function ceekGread( gread) {
+     if (gread >= 90 && gread<=100) {
+         console.log("the gread is : A")
+      } 
+        else if (gread >= 80 && gread<=89) {
+         console.log("the gread is : B")
+      } 
+      else if (gread >= 70 && gread<=79) {
+         console.log("the gread is : C")
+      }  else if (gread >= 60 && gread<=69) {
+         console.log("the gread is : D")
+      } 
+        else {
+         console.log("the gread is :F")
+       } 
+     }
+    //  Leap year (Bonus)
+
+    let leapYear ;
+    function ceekleapYear( leapYear ) {
+     if (leapYear % 4 == 0 && leapYear % 100 !== 0  || leapYear % 400 == 0) {
+         console.log("this is Leap year")
+      } 
+      else {
+         console.log("this is NOT Leap year")
+       } 
+    }
+</script>
+</body>
+</html>
