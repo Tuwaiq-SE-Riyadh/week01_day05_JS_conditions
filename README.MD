@@ -13,6 +13,7 @@ If the score is:
 * between 60 to 69, then the grade is D 
 * 59 or below, then the grade is F
 
+
 ### Leap year (Bonus)
 A leap year (also known as an intercalary year or bissextile year) is a calendar year that contains an additional day (or, in the case of a lunisolar calendar, a month) added to keep the calendar year synchronized with the astronomical year or seasonal year.
 - Write a function that takes a year as an input and print true if the year is a leap year, and false otherwise
