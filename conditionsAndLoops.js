@@ -1,6 +1,6 @@
 console.log(evenOddNumbers(1));
 console.log("-------------------");
-console.log(switchStatment(90));
+console.log(switchStatment(80));
 console.log("-------------------");
 console.log(leapYear(2020));
 
@@ -9,23 +9,16 @@ console.log(leapYear(2020));
 
 function switchStatment(gread){
 
-    switch(true) {
-        case gread >= 90:
-          console.log("A");
-          break;
-        case gread >= 80:
-            console.log("B");
-            break;
-        case gread >= 70:
-            console.log("C");
-            break;
-        case gread >= 60:
-            console.log("D");
-            break;
-        case gread < 60:
-            console.log("F");
-            break;
-      }
+    if(gread >= 90){
+          console.log("A");}
+    else if(gread >= 80){
+        console.log("B");}
+    else if(gread >= 70){
+            console.log("C");}
+    else if(gread >= 60){
+            console.log("D");}
+    else if(gread < 60){
+            console.log("F");}
 }
 
 
